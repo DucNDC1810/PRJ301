@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Register</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <table>
+            <tr>
+                <td colspan = "2">LOGIN INFORMATION</td>
+            </tr>
+            <tr>
+                <td>Email: </td>
+                <td><Input type="email" name="email" id="email"/></td>
+            </tr>
+            <tr>
+                <td>Password: </td>
+                <td><Input type="password" name="confirm_password" id="password"/></td>
+            </tr>
+            <tr>
+                <td>Confirm_Password </td>
+                <td><Input type="password" name="confirm_password" id="password"/></td>
+            </tr>
+            <tr>
+                <td colspan = "2"> Infomation </td>
+            </tr>
+            <tr>
+                <td>Full name: </td>
+                <td><Input type="text" name="fullname" id="fullname"/></td>
+            </tr>
+            <tr>
+                <td>Gender </td>
+                <td>
+                    <Input type = "radio" name="gender" id="gender_male" value ="male" checked> male</br>
+                    <Input type = "radio" name="gender" id="gender_female" value ="female"> female</br>
+                </td>
+            </tr>
+            <tr>
+                <td>Mobile: </td>
+                <td><Input type="text" name="mobile" id="mobile"/></td>
+            </tr>
+            <tr>
+                <td>Avatar: </td>
+                <td><Input type="file" name="avatar" id="avatar"/></td>
+            </tr>
+            <tr>
+                <td>Date of birth: </td>
+                <td>
+                    <select name = "Date of birth">
+                        <option value = ""> </option>
+                        <option value = "1" selected="selected"> </option>
+                    </select>
+                    <select name = "month of birth">
+                        <option value = ""> </option>
+                        <option value = "1"> </option>
+                    </select>
+                    <select name = "year of birth">
+                        <option value = ""> </option>
+                        <option value = "1"> </option>
+                    </select>
+                    <Input type="text" name="fullname" id="fullname"/>
+                </td>
+            </tr>
+            <tr>
+                <td colspan = "2">Addres</td>
+            </tr>
+            <tr>
+                <td>Country: </td>
+                <td>
+                    <select name = "country" id = "country">
+                        <option value = ""> </option>
+                        <option value = "Vietnam" selected="selected"> </option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Country: </td>
+                <td>
+                    <select name = "city" id = "country">
+                        <option value = ""> </option>
+                        <option value = "HCM" selected="selected">HCM</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Country: </td>
+                <td>
+                    <select name = "District" id = "country">
+                        <option value = ""> </option>
+                        <option value = "Thu Duc" selected="selected">Thu Duc</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Home address: </td>
+                <td>
+                    <textarea name ="Home address">
+                    </textarea>
+                </td>
+            </tr>
+            <tr>
+                <td colspan = "2">
+                    <input type="button" value="Register"/>
+                    <input type="button" value="Clear form"/>
+                </td>
+            </tr>   
+        </table>
+    </body>
+</html>
